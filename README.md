@@ -1,4 +1,4 @@
-## Recipe Recommendation System :food
+## Recipe Recommendation System 🥘
 
 ### Overview
 This project involves developing a recipe recommendation system using the Food.com Recipes and User Interactions dataset. The system provides personalized recipe recommendations by implementing content-based filtering, collaborative filtering, and hybrid recommendation techniques. The dataset contains recipes, user ratings, reviews, and associated metadata.
