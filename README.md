@@ -7,13 +7,13 @@ This project involves developing a recipe recommendation system using the Food.c
 #### 1. **Dataset Preparation**
 The dataset from Food.com Recipes and User Interactions was used to build the foundation for this project. It contains detailed recipe information such as ingredients, tags, reviews, and user ratings. The dataset was pre-processed and enriched as follows:
 
--> **Difficulty Level:** Calculated based on the n_steps column, with thresholds defining "Easy," "Medium," and "Hard."
--> **Tags and Ingredients Conversion:** Transformed string representations of lists into proper Python lists for easier processing.
--> **Nutritional Tags:** Established thresholds for key nutritional values (calories, protein, fat, etc.) and assigned tags like "Low Fat" or "High Protein." Extracted nutritional tags from the existing tags list and appended relevant ones to each recipe.
--> **Review Cleaning:** Applied NLP techniques to clean and preprocess user reviews, removing noise and extracting meaningful words.
--> **Sentiment Analysis:** Performed sentiment analysis on reviews to determine positive or negative sentiments, aiding in identifying liked or disliked ingredients.
--> **Ingredient Sentiment Mapping:** Identified liked and disliked ingredients based on sentiment scores of user reviews.
--> **Tag Enrichment:** Extracted additional information such as meal type (e.g., breakfast, lunch), cuisine type, and preference (veg or non-veg) from the tags column.
+-> **Difficulty Level:** Calculated based on the n_steps column, with thresholds defining "Easy," "Medium," and "Hard."  
+-> **Tags and Ingredients Conversion:** Transformed string representations of lists into proper Python lists for easier processing.  
+-> **Nutritional Tags:** Established thresholds for key nutritional values (calories, protein, fat, etc.) and assigned tags like "Low Fat" or "High Protein." Extracted nutritional tags from the existing tags list and appended relevant ones to each recipe.  
+-> **Review Cleaning:** Applied NLP techniques to clean and preprocess user reviews, removing noise and extracting meaningful words.  
+-> **Sentiment Analysis:** Performed sentiment analysis on reviews to determine positive or negative sentiments, aiding in identifying liked or disliked ingredients.  
+-> **Ingredient Sentiment Mapping:** Identified liked and disliked ingredients based on sentiment scores of user reviews.  
+-> **Tag Enrichment:** Extracted additional information such as meal type (e.g., breakfast, lunch), cuisine type, and preference (veg or non-veg) from the tags column.  
 
 #### 2. Recommendations
 Three recommendation techniques were implemented:
