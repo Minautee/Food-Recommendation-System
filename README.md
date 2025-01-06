@@ -23,7 +23,7 @@ Three recommendation techniques were implemented:
 * TF-IDF vectorization was applied to encode ingredients and compute similarity.
 
 -> **Collaborative Filtering:**
-* Constructed a user-item matrix (pivot table of user ratings for recipes).
+* Constructed a user-item matrix (pivot table of user ratings for recipes) based on the suggestions from content-base filtering.
 * Applied Singular Value Decomposition (SVD) to predict missing ratings and rank recipes for users.
 
 -> **Hybrid Recommendations:**
