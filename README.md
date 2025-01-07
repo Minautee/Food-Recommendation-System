@@ -1,7 +1,7 @@
 ## Recipe Recommendation System 🥘
 
 ### Overview
-This project involves developing a recipe recommendation system using the Food.com Recipes and User Interactions dataset. The system provides personalized recipe recommendations by implementing content-based filtering, collaborative filtering, and hybrid recommendation techniques. The dataset contains recipes, user ratings, reviews, and associated metadata.
+This project involves developing a recipe recommendation system using the [Food.com Recipes and User Interactions](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions?resource=download) dataset. The system provides personalized recipe recommendations by implementing content-based filtering, collaborative filtering, and hybrid recommendation techniques. The dataset contains recipes, user ratings, reviews, and associated metadata.
 
 ### Approach
 #### 1. **Dataset Preparation**
